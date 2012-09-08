@@ -27,9 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self startNewRounds];
+    [self startNewGame];
     [self updateLabel];
-    
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -92,6 +91,17 @@
     targetLabel.text = [NSString stringWithFormat:@"%d",targetValue];
     scoreLabel.text = [NSString stringWithFormat:@"%d",score];
     roundLabel.text = [NSString stringWithFormat:@"%d",round];
+}
+- (void)startOver
+{
+    [self startNewGame];
+    [self updateLabel];
+}
+- (void)startNewGame
+{
+    score = 0;
+    round = 0;
+    [self startNewRounds];
 }
 #pragma mark UIAlerteDelegate
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
