@@ -7,6 +7,7 @@
 //
 
 #import "BullsEyeViewController.h"
+#import "AboutViewController.h"
 
 @interface BullsEyeViewController ()
 
@@ -45,7 +46,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 - (IBAction)sliderMove:(UISlider *)sender {
@@ -96,6 +97,12 @@
 {
     [self startNewGame];
     [self updateLabel];
+}
+
+- (IBAction)showInfo {
+    AboutViewController *controller = [[AboutViewController alloc] initWithNibName:@"AboutViewController" bundle:nil];
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:controller animated:YES completion:nil];
 }
 - (void)startNewGame
 {
