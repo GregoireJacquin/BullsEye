@@ -13,8 +13,8 @@
 		B85B289415FB680A00E2B8D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B85B289215FB680A00E2B8D2 /* InfoPlist.strings */; };
 		B85B289615FB680A00E2B8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B289515FB680A00E2B8D2 /* main.m */; };
 		B85B289A15FB680A00E2B8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B289915FB680A00E2B8D2 /* AppDelegate.m */; };
-		B85B289D15FB680A00E2B8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B289C15FB680A00E2B8D2 /* ViewController.m */; };
-		B85B28A015FB680A00E2B8D2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85B289E15FB680A00E2B8D2 /* ViewController.xib */; };
+		B85B289D15FB680A00E2B8D2 /* BullsEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B289C15FB680A00E2B8D2 /* BullsEyeViewController.m */; };
+		B85B28A015FB680A00E2B8D2 /* BullsEyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B85B289E15FB680A00E2B8D2 /* BullsEyeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		B85B289715FB680A00E2B8D2 /* BullsEye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BullsEye-Prefix.pch"; sourceTree = "<group>"; };
 		B85B289815FB680A00E2B8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B85B289915FB680A00E2B8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B85B289B15FB680A00E2B8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B85B289C15FB680A00E2B8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B85B289F15FB680A00E2B8D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B85B289B15FB680A00E2B8D2 /* BullsEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeViewController.h; sourceTree = "<group>"; };
+		B85B289C15FB680A00E2B8D2 /* BullsEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeViewController.m; sourceTree = "<group>"; };
+		B85B289F15FB680A00E2B8D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullsEyeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 			children = (
 				B85B289815FB680A00E2B8D2 /* AppDelegate.h */,
 				B85B289915FB680A00E2B8D2 /* AppDelegate.m */,
-				B85B289B15FB680A00E2B8D2 /* ViewController.h */,
-				B85B289C15FB680A00E2B8D2 /* ViewController.m */,
-				B85B289E15FB680A00E2B8D2 /* ViewController.xib */,
+				B85B289B15FB680A00E2B8D2 /* BullsEyeViewController.h */,
+				B85B289C15FB680A00E2B8D2 /* BullsEyeViewController.m */,
+				B85B289E15FB680A00E2B8D2 /* BullsEyeViewController.xib */,
 				B85B289015FB680A00E2B8D2 /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B85B289415FB680A00E2B8D2 /* InfoPlist.strings in Resources */,
-				B85B28A015FB680A00E2B8D2 /* ViewController.xib in Resources */,
+				B85B28A015FB680A00E2B8D2 /* BullsEyeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +163,7 @@
 			files = (
 				B85B289615FB680A00E2B8D2 /* main.m in Sources */,
 				B85B289A15FB680A00E2B8D2 /* AppDelegate.m in Sources */,
-				B85B289D15FB680A00E2B8D2 /* ViewController.m in Sources */,
+				B85B289D15FB680A00E2B8D2 /* BullsEyeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +178,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B85B289E15FB680A00E2B8D2 /* ViewController.xib */ = {
+		B85B289E15FB680A00E2B8D2 /* BullsEyeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B85B289F15FB680A00E2B8D2 /* en */,
 			);
-			name = ViewController.xib;
+			name = BullsEyeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
